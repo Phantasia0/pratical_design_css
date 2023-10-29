@@ -1,0 +1,207 @@
+@media only screen and (max-width: 1200px) {
+  .header > .search_section {
+    display: none;
+  }
+  .header > .main_menu {
+    display: none;
+  }
+
+  .contents_wrap .recruit_section .cate_section {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .header {
+    height: 56px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .header .logo {
+    left: 20px;
+    top: 5px;
+    z-index: 50;
+  }
+
+  .header .logo img {
+    width: 50px;
+  }
+
+  .contents_wrap {
+    padding: 66px 0 40px;
+  }
+
+  .header .mobile_menu_bt {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 19px;
+    z-index: 50;
+  }
+
+  .header .mobile_menu_bt .mm_m {
+    width: 100%;
+    height: 1.5px;
+    background-color: #181818;
+    border-radius: 1px;
+    position: absolute;
+    transition-duration: 0.2s;
+  }
+
+  .header .mobile_menu_bt .mm1 {
+    top: 0;
+  }
+
+  .header .mobile_menu_bt .mm2 {
+    top: 6px;
+  }
+
+  .header .mobile_menu_bt .mm3 {
+    top: 12px;
+  }
+
+  .header .mobile_menu_bt.active .mm1 {
+    transform: translateY(6px) rotateZ(45deg);
+  }
+
+  .header .mobile_menu_bt.active .mm2 {
+    transform: scaleX(0);
+  }
+
+  .header .mobile_menu_bt.active .mm3 {
+    transform: translateY(-6px) rotateZ(-45deg);
+  }
+
+  .header .mobile_menu {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 70px 20px 0;
+    box-sizing: border-box;
+  }
+
+  .header .mobile_menu .search_section {
+    width: 100%;
+  }
+
+  .header .mobile_menu .search_section input {
+    font-size: 13px;
+  }
+
+  .header .mobile_menu .main_menu {
+    position: relative;
+    right: initial;
+    top: initial;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+
+  .header .mobile_menu .main_menu ul li {
+    display: block;
+    margin-bottom: 25px;
+    margin-left: 20px;
+  }
+
+  .contents_wrap .div_page .page_title {
+    font-size: 13px;
+    padding: 16px 20px;
+    height: 50px;
+  }
+
+  .contents_wrap .div_page .recruit_header {
+    padding: 20px;
+  }
+
+  .contents_wrap .div_page .recruit_header .rc_title {
+    font-size: 14px;
+  }
+
+  .contents_wrap .div_page .recruit_header .rc_title .rc_time {
+    margin-left: 12px;
+    margin-top: -4px;
+  }
+
+  .contents_wrap .div_page .recruit_header .rc_option_items {
+    margin-top: 30px;
+  }
+
+  .contents_wrap .div_page .recruit_header .rc_option_items .info_item {
+    width: 100%;
+  }
+
+  .contents_wrap .div_page {
+    padding: 25px 20px;
+  }
+
+  .contents_wrap .div_page .rcs_contents {
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+  .contents_wrap .div_page .recruit_department {
+    margin-top: 30px;
+    padding: 25px 20px;
+  }
+
+  .contents_wrap .div_page .recruit_department .rcd_item {
+    padding: 20px 0;
+  }
+
+  .contents_wrap .div_page .recruit_department .rcd_item .rcd_title {
+    font-size: 13px;
+  }
+
+  .contents_wrap .div_page .recruit_department .rcd_item .rcd_contents {
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+  .contents_wrap
+    .div_page
+    .recruit_department
+    .rcd_item
+    .rcd_contents
+    .rcd_option {
+    margin-top: 10px;
+    font-size: 13px;
+    margin-left: 0;
+    line-height: 22px;
+  }
+
+  .contents_wrap .div_page .recruit_department .rcd_contents .rcd_state {
+    font-size: 13px;
+  }
+
+  .default_bt.apply_bt {
+    width: 100%;
+  }
+
+  .footer {
+    padding: 30px 20px 50px;
+  }
+
+  .footer .company_info ul li {
+    display: block;
+    font-size: 12px;
+    line-height: 24px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .footer .company_info br {
+    display: none;
+  }
+
+  .footer .ft-copyright {
+    font-size: 12px;
+    right: 20px;
+    bottom: 25px;
+  }
+}
